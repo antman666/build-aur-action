@@ -2,7 +2,7 @@
 
 # export PACKAGER="AntMan666 <945360554@qq.com>"
 
-git clone "https://aur.archlinux.org/$1.git"
+git clone "https://github.com/antman666/$1.git"
 cd "$1"
 echo 'PACKAGER="AntMan666 <945360554@qq.com>"' >> /etc/makepkg.conf
 updpkgsums
